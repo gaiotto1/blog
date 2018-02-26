@@ -1,11 +1,13 @@
 <template>
   <div class="">
-      <busca-cep></busca-cep>
+    <listagem-tarefas></listagem-tarefas>
+    <cadastro-tarefa></cadastro-tarefa>
   </div>
 </template>
 
 <script>
-import BuscaCep from '@/components/BuscaCep'
+import ListagemTarefas from '@/components/ListagemTarefas'
+import CadastroTarefa from '@/components/CadastroTarefa'
 
 export default {
   data () {
@@ -13,7 +15,8 @@ export default {
     }
   },
   components: {
-    BuscaCep
+    ListagemTarefas,
+    CadastroTarefa
   }
 }
 </script>
